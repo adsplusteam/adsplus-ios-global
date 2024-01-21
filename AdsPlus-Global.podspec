@@ -146,6 +146,7 @@ Pod::Spec.new do |spec|
    spec.dependency "Google-Mobile-Ads-SDK", "10.14.0"
    spec.dependency "GoogleMobileAdsMediationFacebook", "6.12.0.1"
    spec.dependency "GoogleMobileAdsMediationAdColony", "4.9.0.2"
+   spec.dependency "GoogleMobileAdsMediationVungle", "6.12.3.0"
    spec.dependency "AmazonPublisherServicesSDK", "4.7.5"
    spec.dependency "AppLovinSDK", "11.11.3"
    spec.dependency "AppLovinMediationAmazonAdMarketplaceAdapter"
