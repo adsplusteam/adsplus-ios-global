@@ -19,8 +19,11 @@ NS_ASSUME_NONNULL_BEGIN
 @interface ADPBannerView : UIView
 
 @property (nonatomic, copy, readonly) NSString *unitID;
-@property (nonatomic, assign) BOOL isAnimationOn;
-@property (nonatomic, assign) int showSeconds;
+@property (nonatomic, assign) BOOL isAnimationOn;//是否开启广告轮换，默认开启
+@property (nonatomic, assign) int showSeconds; // 轮换广告时间，默认30秒
+
+/** 播放视频开启声音，默认关闭，图片广告没有声音 */
+@property (nonatomic, assign) BOOL enableAudio;
 
 
 /**

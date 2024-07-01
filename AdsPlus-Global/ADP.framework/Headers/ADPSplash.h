@@ -110,6 +110,10 @@ typedef enum : NSUInteger {
 - (UIView *)splashBottomView;
 
 
+- (UIView *)customSkipView;
+
+
+
 /**
  广告加载成功
  */
