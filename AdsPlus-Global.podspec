@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AdsPlus-Global"
-  spec.version      = "4.2.7"
+  spec.version      = "4.2.7.1"
   spec.summary      = "AdsPlus国外版本."
 
   # This description is used to generate tags and improve search results.
@@ -143,7 +143,7 @@ Pod::Spec.new do |spec|
    spec.dependency "BigoADS", "2.3.4"
    spec.dependency "Ads-Global", "5.3.1.1"
    spec.dependency "IronSourceSDK", "7.3.0.0"
-   spec.dependency "Google-Mobile-Ads-SDK", "11.15.0"
+   spec.dependency "Google-Mobile-Ads-SDK", "11.5.0"
    spec.dependency "AmazonPublisherServicesSDK", "4.7.5"
    spec.dependency "AppLovinSDK", "11.11.3"
    spec.dependency "AppLovinMediationAmazonAdMarketplaceAdapter"
