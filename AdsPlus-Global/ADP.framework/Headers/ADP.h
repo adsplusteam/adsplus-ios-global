@@ -28,7 +28,7 @@
 
 //#define INCLUDE_CONTENT_SDK YES
 //#define CN_ONLY YES //单独国内版本
-//#define HW_ONLY YES //单独海外版本
+#define HW_ONLY YES //单独海外版本
 #define NO_JAD YES //移除JAD
 
 
@@ -36,7 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //当前版本号
 
-#define ADP_SDK_VERSION  @"4.2.7.5"
+#define ADP_SDK_VERSION  @"4.2.7.6"
 
 
 //测试应用ID

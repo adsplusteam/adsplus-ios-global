@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AdsPlus-Global"
-  spec.version      = "4.2.7.5"
+  spec.version      = "4.2.7.6"
   spec.summary      = "AdsPlus国外版本."
 
   # This description is used to generate tags and improve search results.
