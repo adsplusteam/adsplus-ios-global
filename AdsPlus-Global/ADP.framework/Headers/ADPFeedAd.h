@@ -2,7 +2,7 @@
 //  ADPFeedAd.h
 //  ADP
 //
-//  Created by xiezuan on 2021/02/10.
+//  Created by ADP on 2021/02/10.
 //  Copyright © 2021 ADP. All rights reserved.
 //
 
