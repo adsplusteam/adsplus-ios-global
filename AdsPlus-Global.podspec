@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AdsPlus-Global"
-  spec.version      = "4.2.7.6"
+  spec.version      = "4.2.8.4"
   spec.summary      = "AdsPlus国外版本."
 
   # This description is used to generate tags and improve search results.
@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-   spec.platform     = :ios, "12.0"
+   spec.platform     = :ios, "13.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -140,17 +140,14 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
    spec.dependency "AliyunLogProducer", "~> 3.1.16"
    spec.dependency "AliyunOSSiOS", "2.10.22"
-   spec.dependency "MintegralAdSDK/All", "~> 7.3.7"
    spec.dependency "BigoADS", "4.6.0"
-   spec.dependency "Ads-Global", "6.2.0.9"
    spec.dependency "IronSourceSDK", "7.3.0.0"
-   spec.dependency "Google-Mobile-Ads-SDK", "11.5.0"
-   spec.dependency "AmazonPublisherServicesSDK", "4.7.5"
+   spec.dependency "Google-Mobile-Ads-SDK", "12.6.0"
+   #spec.dependency "GoogleMobileAdsMediationFacebook"
+   spec.dependency "GoogleMobileAdsMediationVungle"
+   spec.dependency "GoogleMobileAdsMediationPangle"
+   spec.dependency "GoogleMobileAdsMediationMintegral"
    spec.dependency "AppLovinSDK", "11.11.3"
-   spec.dependency "AppLovinMediationAmazonAdMarketplaceAdapter"
-   spec.dependency "AppLovinMediationGoogleAdapter"
-   spec.dependency "AppLovinMediationIronSourceAdapter"
-   spec.dependency "AppLovinMediationMintegralAdapter"
-   spec.dependency "AppLovinMediationByteDanceAdapter"
+ 
 
 end

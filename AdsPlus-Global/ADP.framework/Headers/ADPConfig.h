@@ -20,7 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 //获取IDFA要App主动配置和调用请求
 @property(nonatomic, assign) BOOL disablePersonalRecommend;
 
-
+@property(nonatomic, copy) NSString *userId;     //用户id
+@property(nonatomic, copy) NSString *channelId;  //渠道id
 
 @end
 
