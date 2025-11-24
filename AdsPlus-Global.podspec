@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AdsPlus-Global"
-  spec.version      = "4.2.8.5"
+  spec.version      = "4.2.9.2"
   spec.summary      = "AdsPlus国外版本."
 
   # This description is used to generate tags and improve search results.
@@ -96,7 +96,7 @@ Pod::Spec.new do |spec|
   spec.exclude_files = "Classes/Exclude"
 
   # SDK的路径 写上库的位置 (自动生成没有这一项，不写会出错)
-  spec.vendored_frameworks = 'AdsPlus-Global/ADP.framework'
+  spec.vendored_frameworks = 'AdsPlus-Global/ADP.xcframework'
   # spec.public_header_files = "Classes/**/*.h"
 
 
@@ -138,15 +138,15 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   spec.dependency "AliyunLogProducer", "~> 3.1.16"
+   spec.dependency "AliyunLogProducer", "3.1.16"
    spec.dependency "AliyunOSSiOS", "2.10.22"
    spec.dependency "BigoADS", "4.6.0"
    spec.dependency "IronSourceSDK", "7.3.0.0"
    spec.dependency "Google-Mobile-Ads-SDK", "12.6.0"
    #spec.dependency "GoogleMobileAdsMediationFacebook"
-   spec.dependency "GoogleMobileAdsMediationVungle", "7.5.3.0"
-   spec.dependency "GoogleMobileAdsMediationPangle", "7.2.0.5.0"
-   spec.dependency "GoogleMobileAdsMediationMintegral", "7.7.9.1"
+   spec.dependency "GoogleMobileAdsMediationVungle"
+   spec.dependency "GoogleMobileAdsMediationPangle"
+   spec.dependency "GoogleMobileAdsMediationMintegral"
    spec.dependency "AppLovinSDK", "11.11.3"
  
 

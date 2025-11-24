@@ -1,0 +1,6 @@
+framework module ADP {
+  umbrella header "ADP.h"
+  export *
+
+  module * { export * }
+}
