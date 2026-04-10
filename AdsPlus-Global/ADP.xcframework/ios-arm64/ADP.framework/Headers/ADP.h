@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //当前版本号
 
-#define ADP_SDK_VERSION  @"4.3.0"
+#define ADP_SDK_VERSION  @"4.3.1"
 
 
 //测试应用ID
@@ -89,6 +89,7 @@ typedef NS_ENUM(NSInteger,ADPArea) {
 +(void)setArea:(ADPArea)area;
 +(ADPArea)getArea;
 +(BOOL)shouldLockRotation;
++(void)setGlobalMute:(BOOL)mute;
 
 
 
