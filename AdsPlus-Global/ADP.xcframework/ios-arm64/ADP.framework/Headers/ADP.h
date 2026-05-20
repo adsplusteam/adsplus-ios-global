@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //当前版本号
 
-#define ADP_SDK_VERSION  @"4.3.1"
+#define ADP_SDK_VERSION  @"4.3.2"
 
 
 //测试应用ID

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AdsPlus-Global"
-  spec.version      = "4.3.1"
+  spec.version      = "4.3.2"
   spec.summary      = "AdsPlus国外版本."
 
   # This description is used to generate tags and improve search results.
@@ -140,16 +140,16 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency 'AliyunLogProducer', '3.1.16'
   spec.dependency 'AliyunOSSiOS', '2.10.22'
-  spec.dependency 'AnyThinkiOS','6.5.34'
-  spec.dependency 'AnyThinkMediationAdxSmartdigimktCNAdapter','6.5.42.1'
-  spec.dependency 'AnyThinkMediationMintegralAdapter','7.7.9.0'
+  spec.dependency 'AnyThinkiOS','~> 6.5.45'
+  spec.dependency 'AnyThinkMediationAdxSmartdigimktCNAdapter'
+  spec.dependency 'AnyThinkMediationMintegralAdapter'
     
   #国外
-  spec.dependency 'AnyThinkMediationAdmobAdapter','12.12.0.0'
-  spec.dependency 'AnyThinkMediationInmobiAdapter','10.8.8.0'
-  spec.dependency 'AnyThinkMediationApplovinAdapter','13.5.0.0'
-  spec.dependency 'AnyThinkMediationVungleAdapter','7.6.0.1'
-  spec.dependency 'AnyThinkMediationUnityAdsAdapter','4.16.4.0'
+  spec.dependency 'AnyThinkMediationAdmobAdapter'
+  spec.dependency 'AnyThinkMediationInmobiAdapter'
+  spec.dependency 'AnyThinkMediationApplovinAdapter'
+  spec.dependency 'AnyThinkMediationVungleAdapter'
+  spec.dependency 'AnyThinkMediationUnityAdsAdapter'
   spec.dependency 'IronSourceSDK','7.3.0.0'
   spec.dependency 'BigoADS','5.0.0'
   spec.dependency 'GoogleMobileAdsMediationVungle','7.6.0.0'
