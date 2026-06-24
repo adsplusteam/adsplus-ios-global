@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic, copy) NSString *userId;     //用户id
 @property(nonatomic, copy) NSString *channelId;  //渠道id
+@property(nonatomic, copy) NSString *adsPlusADXAppKey;  //Deprecated: AdsPlusADX 改为从服务端 adInfo.adsplusadx 解析 appId#appKey
 
 @end
 

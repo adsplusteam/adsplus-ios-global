@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>ADPADX.bundle/Info.plist</key>
+		<data>
+		gLMpyC65fU+XsNm+DQiziiVlzw8=
+		</data>
+		<key>ADPADX.bundle/adpadx_tap_hand.png</key>
+		<data>
+		AHVx8V2rjIl1sQC2bVPakOhrROA=
+		</data>
 		<key>AdsGlobalSDK.bundle/Info.plist</key>
 		<data>
 		eaYDG+6PID2aU8LV654MlQ2q9OI=
@@ -919,7 +927,7 @@
 		</data>
 		<key>Headers/ADP.h</key>
 		<data>
-		bOrkRy4rXybrb/xivewI9gbZwWo=
+		7KuoboubuJBF4T7A8xtyrpBgrj4=
 		</data>
 		<key>Headers/ADPBannerView.h</key>
 		<data>
@@ -927,7 +935,7 @@
 		</data>
 		<key>Headers/ADPConfig.h</key>
 		<data>
-		VNVGKXAa152gOo2/o+ADcdXiQr4=
+		YI3ZmYgfNIEg+8NPt7Kew/nOoog=
 		</data>
 		<key>Headers/ADPContentCallBackProtocol.h</key>
 		<data>
@@ -1893,6 +1901,28 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>ADPADX.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gLMpyC65fU+XsNm+DQiziiVlzw8=
+			</data>
+			<key>hash2</key>
+			<data>
+			SCx59lhwQCgOBPJ9JkOGt4l303xrmctGBX58UWrh6Sw=
+			</data>
+		</dict>
+		<key>ADPADX.bundle/adpadx_tap_hand.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AHVx8V2rjIl1sQC2bVPakOhrROA=
+			</data>
+			<key>hash2</key>
+			<data>
+			vZem7pLNgYxYqW9pMWHOp9akUJmeX1cphg+ffjOziLs=
+			</data>
+		</dict>
 		<key>AdsGlobalSDK.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
@@ -4020,11 +4050,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bOrkRy4rXybrb/xivewI9gbZwWo=
+			7KuoboubuJBF4T7A8xtyrpBgrj4=
 			</data>
 			<key>hash2</key>
 			<data>
-			CqIoBgJJqJ4cmr3Q+ia2ymvqZmixaZCHc7O6+1vw45c=
+			LbRQtY9dvDaZSq2Eo7oRiGzMdS+2H4LSWjFwVL9VlbM=
 			</data>
 		</dict>
 		<key>Headers/ADPBannerView.h</key>
@@ -4042,11 +4072,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VNVGKXAa152gOo2/o+ADcdXiQr4=
+			YI3ZmYgfNIEg+8NPt7Kew/nOoog=
 			</data>
 			<key>hash2</key>
 			<data>
-			DaeZ1QROO0Qv0cUoETbza7hKLYZg0oqWQa0DUO8nbyk=
+			WU7i1sKIguNEXMGNkdQbnyQdcePBp3Z07+SbTaizeSg=
 			</data>
 		</dict>
 		<key>Headers/ADPContentCallBackProtocol.h</key>
