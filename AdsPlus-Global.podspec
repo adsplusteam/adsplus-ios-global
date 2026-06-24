@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = ""
+  spec.license      = { :type => "Proprietary", :text => "Copyright AdsPlus. All rights reserved." }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -66,6 +66,7 @@ Pod::Spec.new do |spec|
 
   # spec.platform     = :ios
    spec.platform     = :ios, "13.0"
+   spec.swift_version = "5.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -154,7 +155,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'AnyThinkMediationApplovinAdapter'
   spec.dependency 'AnyThinkMediationVungleAdapter'
   spec.dependency 'AnyThinkMediationUnityAdsAdapter'
-  spec.dependency 'IronSourceSDK','7.3.0.0'
   spec.dependency 'BigoADS','5.0.0'
   spec.dependency 'GoogleMobileAdsMediationVungle','7.6.0.0'
   spec.dependency 'GoogleMobileAdsMediationPangle','7.8.0.6.0'
