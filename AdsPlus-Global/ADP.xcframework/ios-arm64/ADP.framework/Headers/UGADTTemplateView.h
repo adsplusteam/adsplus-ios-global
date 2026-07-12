@@ -19,7 +19,7 @@
 
 
 #import <UIKit/UIKit.h>
-
+#import "ADPHead.h"
 
 
 //#define CN_ONLY YES //单独国内版本

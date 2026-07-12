@@ -1,0 +1,23 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios13-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name ADP
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+@_exported import ADP
+import CryptoKit
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc(ADPGameSecureRouteCatalog) final public class ADPGameSecureRouteCatalog : ObjectiveC.NSObject {
+  @objc(setWebURL:) final public class func setWebURL(_ raw: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(loadWithCompletion:) final public class func load(completion: @escaping (Foundation.NSDictionary?, Foundation.NSError?) -> Swift.Void)
+  #endif
+  @objc final public class func catalogKey() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public class func resolve(_ routes: Foundation.NSDictionary?, gameId: Swift.String) -> Swift.String?
+  #endif
+  @objc override dynamic public init()
+  @objc deinit
+}

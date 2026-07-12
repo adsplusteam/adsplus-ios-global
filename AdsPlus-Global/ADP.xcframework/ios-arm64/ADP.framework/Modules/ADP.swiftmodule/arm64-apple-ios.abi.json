@@ -1,0 +1,337 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ADP",
+    "printedName": "ADP",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ADP"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "ADP"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ADPGameSecureRouteCatalog",
+        "printedName": "ADPGameSecureRouteCatalog",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setWebURL",
+            "printedName": "setWebURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADP@objc(cs)ADPGameSecureRouteCatalog(cm)setWebURL:",
+            "mangledName": "$s3ADP25ADPGameSecureRouteCatalogC9setWebURLyySSFZ",
+            "moduleName": "ADP",
+            "static": true,
+            "objc_name": "setWebURL:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSDictionary?, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.NSDictionary?, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSDictionary?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSDictionary",
+                            "printedName": "Foundation.NSDictionary",
+                            "usr": "c:objc(cs)NSDictionary"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADP@objc(cs)ADPGameSecureRouteCatalog(cm)loadWithCompletion:",
+            "mangledName": "$s3ADP25ADPGameSecureRouteCatalogC4load10completionyySo12NSDictionaryCSg_So7NSErrorCSgtc_tFZ",
+            "moduleName": "ADP",
+            "static": true,
+            "objc_name": "loadWithCompletion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "catalogKey",
+            "printedName": "catalogKey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADP@objc(cs)ADPGameSecureRouteCatalog(cm)catalogKey",
+            "mangledName": "$s3ADP25ADPGameSecureRouteCatalogC10catalogKeySSyFZ",
+            "moduleName": "ADP",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(_:gameId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ADP@objc(cs)ADPGameSecureRouteCatalog(cm)resolve:gameId:",
+            "mangledName": "$s3ADP25ADPGameSecureRouteCatalogC7resolve_6gameIdSSSgSo12NSDictionaryCSg_SStFZ",
+            "moduleName": "ADP",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ADPGameSecureRouteCatalog",
+                "printedName": "ADP.ADPGameSecureRouteCatalog",
+                "usr": "c:@M@ADP@objc(cs)ADPGameSecureRouteCatalog"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ADP@objc(cs)ADPGameSecureRouteCatalog(im)init",
+            "mangledName": "$s3ADP25ADPGameSecureRouteCatalogCACycfc",
+            "moduleName": "ADP",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ADP@objc(cs)ADPGameSecureRouteCatalog",
+        "mangledName": "$s3ADP25ADPGameSecureRouteCatalogC",
+        "moduleName": "ADP",
+        "objc_name": "ADPGameSecureRouteCatalog",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/xz\/Work\/13.ADPProject\/AdsPlus-iOS\/ADP\/ADPGame\/ADPGameSecureRouteCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 416,
+      "length": 29,
+      "value": "\"https:\/\/minigames.bckd.net\/\""
+    },
+    {
+      "filePath": "\/Users\/xz\/Work\/13.ADPProject\/AdsPlus-iOS\/ADP\/ADPGame\/ADPGameSecureRouteCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 29,
+      "value": "\"com.minifunjoy.secureRoutes\""
+    },
+    {
+      "filePath": "\/Users\/xz\/Work\/13.ADPProject\/AdsPlus-iOS\/ADP\/ADPGame\/ADPGameSecureRouteCatalog.swift",
+      "kind": "Array",
+      "offset": 709,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

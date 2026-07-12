@@ -26,12 +26,11 @@
 
 
 
-
 NS_ASSUME_NONNULL_BEGIN
 
 //当前版本号
 
-#define ADP_SDK_VERSION  @"4.3.3"
+#define ADP_SDK_VERSION  @"4.3.6"
 
 
 //测试应用ID
@@ -60,7 +59,6 @@ NS_ASSUME_NONNULL_BEGIN
 #define ADP_TEST_UNIT_ID_REWARD_CN         @"adp-unit-8691753409"
 //激励海外
 #define ADP_TEST_UNIT_ID_REWARD            @"adp-unit-3775372434"
-
 
 
 

@@ -4,3 +4,8 @@ framework module ADP {
 
   module * { export * }
 }
+
+module ADP.Swift {
+  header "ADP-Swift.h"
+  requires objc
+}
